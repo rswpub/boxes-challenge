@@ -2,3 +2,25 @@ body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.box {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.on {
+  background-color: lightpink;
+  border: 3px solid red;
+  color: red;
+}
+
+.off {
+  background-color: transparent;
+  border: 1px dashed #aaa;
+  color: #aaa;
+}
